@@ -45,7 +45,7 @@ class Form extends Component {
         <h1>Add Lead</h1>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
-            <label>Name</label>
+            <label className="label">Name</label>
             <input 
               className="form-control"
               type="text"
